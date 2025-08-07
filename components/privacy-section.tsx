@@ -2,7 +2,7 @@
 
 export default function PrivacySection() {
   return (
-    <section className="relative py-20 bg-white overflow-hidden w-full">
+    <section className="relative pt-4 pb-8 bg-white overflow-hidden w-full">
       <div className="relative z-10 w-full">
         <div className="grid lg:grid-cols-2 items-center w-full">
           {/* Left side – Illustration flush to the left */}

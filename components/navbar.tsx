@@ -7,14 +7,14 @@ import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
   return (
-    <nav className="w-full bg-gradient-to-b from-[#FF7A7A] via-[#FF9B9B] to-white px-6 py-4 shadow-lg">
-      <div className="flex items-center justify-between max-w-auto mx-auto">
+    <nav className="w-full h-32 bg-gradient-to-b from-[#FF7A7A] via-[#FF9B9B] to-white pr-8 pb-8  pt-2 shadow-2xl">
+      <div className="flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <img
             src="/images/Artboard 11@2x.png"
             alt="MIXCRYPT Logo"
-            className="h-20 w-auto"
+            className="h-24 w-auto"
           />
         </Link>
 
