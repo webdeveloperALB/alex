@@ -1,8 +1,11 @@
 "use client";
 
-export default function FaqIntroSection() {
+export default function BenefitsSection() {
   return (
-    <section className="relative min-h-screen w-full flex flex-col">
+    <section
+      id="benefits"
+      className="relative min-h-screen w-full flex flex-col"
+    >
       {/* Top section - white background */}
       <div className="bg-white pt-20 flex-grow w-full">
         <div className="w-full px-6 text-center">

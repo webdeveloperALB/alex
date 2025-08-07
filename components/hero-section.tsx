@@ -1,10 +1,16 @@
+// components/HeroSection.tsx
+
 "use client";
 
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen bg-white overflow-hidden">
+    <section
+      id="about-mixcrypt"
+      className="relative min-h-screen bg-white overflow-hidden"
+    >
       {/* Background image */}
       <img
         src="/images/Artboard 13.svg"
@@ -36,12 +42,14 @@ export default function HeroSection() {
         </p>
 
         {/* CTA Button */}
-        <Button
-          size="lg"
-          className="bg-black text-white hover:bg-gray-800 px-16 py-8 text-2xl font-semibold rounded-xl transition-all duration-300 hover:scale-105"
-        >
-          Start Mixing Bitcoin
-        </Button>
+        <Link href="#start-mixing">
+          <Button
+            size="lg"
+            className="bg-black text-white hover:bg-gray-800 px-16 py-8 text-2xl font-semibold rounded-xl transition-all duration-300 hover:scale-105"
+          >
+            Start Mixing Bitcoin
+          </Button>
+        </Link>
       </div>
     </section>
   );

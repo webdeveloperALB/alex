@@ -1,3 +1,5 @@
+// components/Navbar.tsx
+
 "use client";
 
 import Link from "next/link";
@@ -6,7 +8,7 @@ import { Button } from "@/components/ui/button";
 export default function Navbar() {
   return (
     <nav className="w-full bg-gradient-to-b from-[#FF7A7A] via-[#FF9B9B] to-white px-6 py-4 shadow-lg">
-      <div className="flex items-center justify-between max-w-7xl mx-auto">
+      <div className="flex items-center justify-between max-w-auto mx-auto">
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <img
@@ -19,25 +21,25 @@ export default function Navbar() {
         {/* Navigation Links */}
         <div className="hidden md:flex items-center gap-8">
           <Link
-            href="/about"
+            href="/#about-mixcrypt"
             className="text-white font-medium hover:text-black/80 transition-colors"
           >
             About MixCrypt
           </Link>
           <Link
-            href="/how-it-works"
+            href="/#how-it-works"
             className="text-white font-medium hover:text-black/80 transition-colors"
           >
             How It Works
           </Link>
           <Link
-            href="/benefits"
+            href="/#benefits"
             className="text-white font-medium hover:text-black/80 transition-colors"
           >
             Benefits
           </Link>
           <Link
-            href="/faqs"
+            href="/"
             className="text-white font-medium hover:text-black/80 transition-colors"
           >
             FAQs
@@ -45,12 +47,14 @@ export default function Navbar() {
         </div>
 
         {/* CTA Button */}
-        <Button
-          variant="outline"
-          className="bg-transparent border-2 border-black text-white font-semibold px-6 py-2 hover:bg-black hover:text-white transition-colors"
-        >
-          Start Mixing
-        </Button>
+        <Link href="#start-mixing">
+          <Button
+            variant="outline"
+            className="bg-transparent border-2 border-black text-white font-semibold px-6 py-2 hover:bg-black hover:text-white transition-colors"
+          >
+            Start Mixing
+          </Button>
+        </Link>
       </div>
     </nav>
   );
