@@ -10,7 +10,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <img
-            src="/images/Artboard 11.png"
+            src="/images/Artboard 11@2x.png"
             alt="MIXCRYPT Logo"
             className="h-20 w-auto"
           />
