@@ -116,21 +116,31 @@ export default function FooterSection() {
         </svg>
       </div>
 
-      <div className="relative z-10 w-full px-6 text-center">
+      <div className="relative z-10 w-full px-6 text-center pt-24 pb-24">
         {/* Main content */}
-        <div className="mb-20">
-          <h2 className="text-5xl lg:text-6xl font-bold text-white mb-8">
-            Ready to start MixCRYPT?
-          </h2>
-          <p className="text-xl text-white mb-8 max-w-3xl mx-auto">
-            Email our anonymous MixCrypt team below with your requirements
-          </p>
-          <a
-            href="mailto:support@mixcrypt.com"
-            className="text-3xl lg:text-4xl font-bold text-red-500 hover:text-red-400 transition-colors"
-          >
-            support@mixcrypt.com
-          </a>
+        <div className="mb-20 relative flex items-center justify-center">
+          {/* Background SVG centered */}
+          <img
+            src="images/Artboard 15.svg"
+            alt="Artboard Background"
+            className="absolute w-3/4 max-w-sm opacity-100 z-0"
+          />
+
+          {/* Foreground content */}
+          <div className="relative z-10 text-center">
+            <h2 className="text-5xl lg:text-6xl font-bold text-white mb-8">
+              Ready to start MixCRYPT?
+            </h2>
+            <p className="text-xl text-white mb-8 max-w-3xl mx-auto">
+              Email our anonymous MixCrypt team below with your requirements
+            </p>
+            <a
+              href="mailto:support@mixcrypt.com"
+              className="text-3xl lg:text-4xl font-bold text-red-500 hover:text-red-400 transition-colors"
+            >
+              support@mixcrypt.com
+            </a>
+          </div>
         </div>
 
         {/* Separator line */}

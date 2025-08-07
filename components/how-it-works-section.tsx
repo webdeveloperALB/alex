@@ -62,7 +62,7 @@ export default function HowItWorksSection() {
           <div className="bg-black rounded-3xl p-8 text-center">
             <div className="mb-6">
               <img
-                src="/images/anonymous.png"
+                src="/images/receive.png"
                 alt="Receive Icon"
                 className="w-12 h-12 mx-auto"
               />

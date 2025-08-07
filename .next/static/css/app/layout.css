@@ -813,6 +813,12 @@ video {
 .mt-auto {
   margin-top: auto;
 }
+.-mt-64 {
+  margin-top: -16rem;
+}
+.-mt-80 {
+  margin-top: -20rem;
+}
 .block {
   display: block;
 }
@@ -940,6 +946,9 @@ video {
 }
 .h-32 {
   height: 8rem;
+}
+.h-\[600px\] {
+  height: 600px;
 }
 .max-h-96 {
   max-height: 24rem;
@@ -1090,6 +1099,15 @@ video {
 }
 .max-w-screen-xl {
   max-width: 1280px;
+}
+.max-w-2xl {
+  max-width: 42rem;
+}
+.max-w-xl {
+  max-width: 36rem;
+}
+.max-w-sm {
+  max-width: 24rem;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -1625,6 +1643,15 @@ video {
 .pb-14 {
   padding-bottom: 3.5rem;
 }
+.pt-24 {
+  padding-top: 6rem;
+}
+.pt-36 {
+  padding-top: 9rem;
+}
+.pb-24 {
+  padding-bottom: 6rem;
+}
 .text-left {
   text-align: left;
 }
@@ -1683,6 +1710,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 .font-bold {
   font-weight: 700;
@@ -1811,6 +1842,12 @@ video {
 }
 .opacity-90 {
   opacity: 0.9;
+}
+.opacity-20 {
+  opacity: 0.2;
+}
+.opacity-100 {
+  opacity: 1;
 }
 .shadow-\[0_0_0_1px_hsl\(var\(--sidebar-border\)\)\] {
   --tw-shadow: 0 0 0 1px hsl(var(--sidebar-border));

@@ -26,9 +26,9 @@ export default function BenefitsSection() {
       </div>
 
       {/* Stronger asymmetrical wave transition */}
-      <div className="relative w-full overflow-hidden leading-none -mt-44">
+      <div className="relative w-full overflow-hidden leading-none -mt-80">
         <svg
-          className="w-full h-[400px]"
+          className="w-full h-[600px]"
           viewBox="0 0 1440 300"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -46,10 +46,10 @@ export default function BenefitsSection() {
           <div className="grid grid-cols-[auto_auto] justify-center items-center gap-24 h-full">
             {/* Left side - Content */}
             <div>
-              <h3 className="text-4xl lg:text-5xl font-bold text-white mb-6">
+              <h3 className="text-7xl font-bold text-white mb-6 max-w-2xl">
                 Commonly asked questions
               </h3>
-              <p className="text-gray-300 text-lg leading-relaxed">
+              <p className="text-gray-300 text-2xl max-w-2xl leading-relaxed">
                 What you need to know about Bitcoin Mixers, how to use them and
                 why you should use one?
               </p>
