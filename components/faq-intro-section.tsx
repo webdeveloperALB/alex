@@ -12,15 +12,15 @@ export default function BenefitsSection() {
           <h2 className="text-4xl lg:text-5xl font-bold mb-8">
             <span className="text-red-500">Blend your BTC</span>{" "}
             <span className="text-black">
-              and receive cleaned BTC to a designated address
+              and receive anonymized coins to your chosen addresses
             </span>
           </h2>
           <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            With MixCrypt, a Trusted Bitcoin Mixer Service, even your
-            grandparents can make Bitcoins untraceable! You can decide how much
-            bitcoin mixer fees you want to pay and how long the mixing process
-            should take. More fees and a longer mixing time also means more
-            anonymity.
+            MixCrypt is a trusted Bitcoin mixer that puts privacy in your hands.
+            You control the fee and time delay for each transaction—giving you
+            full flexibility over how your coins are anonymized. Higher fees and
+            longer delays increase the strength of the mixing process, providing
+            enhanced protection against blockchain analysis.
           </p>
         </div>
       </div>
@@ -47,11 +47,11 @@ export default function BenefitsSection() {
             {/* Left side - Content */}
             <div>
               <h3 className="text-7xl font-bold text-white mb-6 max-w-2xl">
-                Commonly asked questions
+                Frequently Asked Questions
               </h3>
               <p className="text-gray-300 text-2xl max-w-2xl leading-relaxed">
-                What you need to know about Bitcoin Mixers, how to use them and
-                why you should use one?
+                Learn how Bitcoin mixers work, why MixCrypt prioritizes your
+                anonymity, and how to securely use our platform.
               </p>
             </div>
 

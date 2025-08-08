@@ -24,21 +24,21 @@ export default function HeroSection() {
         <div className="mb-12">
           <img
             src="/images/Artboard 12.svg"
-            alt="MIXCRYPT Symbol"
+            alt="MixCrypto Logo"
             className="h-44 w-auto mx-auto"
           />
         </div>
 
         {/* Main heading */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-8 max-w-4xl leading-tight">
-          The easiest way to mix your bitcoin
+          Private. Secure. Effortless Bitcoin Mixing.
         </h1>
 
         {/* Description */}
         <p className="text-lg md:text-xl text-gray-800 mb-12 max-w-3xl leading-relaxed">
-          At Blendzuno, we established our roots through close collaboration
-          with the Bitcoin community, demonstrating our dedication to building
-          trust and maintaining a solid reputation.
+          MixCrypto is built with privacy at its core. Backed by the Bitcoin
+          community, our mission is to help you stay anonymous while keeping
+          your funds safe and trace-free.
         </p>
 
         {/* CTA Button */}
@@ -47,7 +47,7 @@ export default function HeroSection() {
             size="lg"
             className="bg-black text-white hover:bg-gray-800 px-16 py-8 text-2xl font-semibold rounded-xl transition-all duration-300 hover:scale-105"
           >
-            Start Mixing Bitcoin
+            Start Mixing Now
           </Button>
         </Link>
       </div>
