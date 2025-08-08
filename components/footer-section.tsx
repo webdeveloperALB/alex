@@ -151,7 +151,7 @@ export default function FooterSection() {
           <p className="text-lg">
             <span className="text-red-500">© 2025</span>{" "}
             <span className="text-white">MixCRYPT</span>{" "}
-            <span className="text-red-500">All Rights Reserved. Terms.</span>
+            <span className="text-red-500">All Rights Reserved</span>
           </p>
         </div>
       </div>
